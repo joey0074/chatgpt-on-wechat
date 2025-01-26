@@ -12,7 +12,7 @@ from common.log import logger
 # 此处的配置值无实际意义，程序不会读取此处的配置，仅用于提示格式，请将配置加入到config.json中
 available_setting = {
     # openai api配置
-    "open_ai_api_key": "sk-b9f21974da7a4d588a683d6c8e0b26a2",  # openai api key
+    "open_ai_api_key": "sk-4ebe48421dbd4a28a9032637c7de0f55",  # openai api key
     # openai apibase，当use_azure_chatgpt为true时，需要设置对应的api base
     "open_ai_api_base": "https://api.deepseek.com/v1",
     "proxy": "",  # openai使用的代理
