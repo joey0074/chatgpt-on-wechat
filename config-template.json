@@ -1,7 +1,7 @@
 {
   "channel_type": "wx",
-  "model": "",
-  "open_ai_api_key": "YOUR API KEY",
+  "model": "deepseek-reasoner",
+  "open_ai_api_key": "sk-4ebe48421dbd4a28a9032637c7de0f55",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-2",
   "voice_to_text": "openai",
@@ -9,12 +9,11 @@
   "proxy": "",
   "hot_reload": false,
   "single_chat_prefix": [
-    "bot",
-    "@bot"
+    "@."
   ],
-  "single_chat_reply_prefix": "[bot] ",
+  "single_chat_reply_prefix": "[卞老师的私人AI助教] ",
   "group_chat_prefix": [
-    "@bot"
+    "@."
   ],
   "group_name_white_list": [
     "ChatGPT测试群",
